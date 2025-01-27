@@ -8,5 +8,8 @@
       "allowJs": true,
       "moduleResolution": "node",
           "skipLibCheck": true
-    }
+    },
+  "include": [
+    "js/**/*"
+    ]
   }

@@ -69,4 +69,3 @@ interface Teacher {
   console.log(printTeacher("John", "Doe"));
   console.log(student1.workOnHomework());
   console.log(student1.displayName());
-  

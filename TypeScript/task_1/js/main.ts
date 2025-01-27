@@ -4,15 +4,28 @@ interface Teacher {
     fullTimeEmployee: boolean;
     yearsOfExperience?: number;
     location: string;
-    [key: string]: any; // This allows for additional properties with any type
+    [key: string]: any; // Ceci permet d'ajouter des propriétés supplémentaires de n'importe quel type
+  }
+  
+  interface Directors extends Teacher {
+    numberOfReports: number; // Propriété spécifique à l'interface Directors
   }
   
   const teacher3: Teacher = {
     firstName: 'John',
-    lastName: 'Doe',
     fullTimeEmployee: false,
+    lastName: 'Doe',
     location: 'London',
-    contract: false, // Adding a dynamic property
+    contract: false,
+  };
+  
+  const director1: Directors = {
+    firstName: 'John',
+    lastName: 'Doe',
+    location: 'London',
+    fullTimeEmployee: true,
+    numberOfReports: 17, // Initialisation de la propriété numberOfReports
   };
   
   console.log(teacher3);
+  console.log(director1); // Affichage des objets dans la console

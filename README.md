@@ -1,38 +1,31 @@
 # holbertonschool-web_react
 
-<div style="display: flex; flex-direction: row; align-items: center; gap: 20px; border: 2px solid #ddd; padding: 10px; border-radius: 5px;">
-
-<div style="text-align: center;">
-  <strong>JavaScript</strong><br/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Logo JavaScript" width="30"/>
-</div>
-
-<div style="text-align: center;">
-  <strong>TypeScript</strong><br/>
-  <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="Logo TypeScript" width="30"/>
-</div>
-
-<div style="text-align: center;">
-  <strong>HTML</strong><br/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML" width="30"/>
-</div>
-
-<div style="text-align: center;">
-  <strong>CSS</strong><br/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Logo CSS" width="30"/>
-</div>
-
-<div style="text-align: center;">
-  <strong>React</strong><br/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo React" width="30"/>
-</div>
-
-<div style="text-align: center;">
-  <strong>Node.js</strong><br/>
-  <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Logo Node.js" width="30"/>
-</div>
-
-</div>
+<p align="center">
+  <div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Unofficial_JavaScript_logo_2.svg" alt="Logo JavaScript" width="30"/><br>
+    <strong>JavaScript</strong>
+  </div>
+  <div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <img src="https://cdn.worldvectorlogo.com/logos/typescript.svg" alt="Logo TypeScript" width="30"/><br>
+    <strong>TypeScript</strong>
+  </div>
+  <div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="Logo HTML" width="30"/><br>
+    <strong>HTML</strong>
+  </div>
+  <div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="Logo CSS" width="30"/><br>
+    <strong>CSS</strong>
+  </div>
+  <div style="display: inline-block; text-align: center; margin-right: 20px;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg" alt="Logo React" width="30"/><br>
+    <strong>React</strong>
+  </div>
+  <div style="display: inline-block; text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg" alt="Logo Node.js" width="30"/><br>
+    <strong>Node.js</strong>
+  </div>
+</p>
 
 
 ### **Titre du Projet : TypeScript (Niveau Amateur)**

@@ -42,20 +42,29 @@ const createEmployee = (salary: number | string): Director | Teacher => {
   }
 };
 
-// Fonction isDirector
 const isDirector = (employee: Director | Teacher): employee is Director => {
   return employee instanceof Director;
 };
 
-// Fonction executeWork
-const executeWork = (employee: Director | Teacher): void => {
+const executeWork = (employee: Director | Teacher): string => {
   if (isDirector(employee)) {
-    console.log(employee.workDirectorTasks());
+    return employee.workDirectorTasks();
   } else {
-    console.log(employee.workTeacherTasks());
+    return employee.workTeacherTasks();
   }
 };
 
-// Tests
-executeWork(createEmployee(200)); // Getting to work
-executeWork(createEmployee(1000)); // Getting to director tasks
+
+type Subjects = 'Math' | 'History';
+
+const teachClass = (todayClass: Subjects): string => {
+  if (todayClass === 'Math') {
+    return 'Teaching Math';
+  } else {
+    return 'Teaching History';
+  }
+};
+
+console.log(teachClass('Math'));
+console.log(teachClass('History'));
+//console.log(teachClass('Science')); // Ceci provoquera une erreur de compilation
